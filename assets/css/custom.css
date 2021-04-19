@@ -1,0 +1,273 @@
+/* GENERIC CLASSES  */
+/* display - block and weight 600 */
+.dbw600 {
+  display: block;
+  font-weight: 600;
+}
+
+/* GENERAL CSS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+* {
+  font-family: Montserrat;
+}
+
+#kt_content {
+  background-color: #f7f9fc;
+}
+
+.font-weight-bolder {
+  font-weight: 600
+}
+
+.my-heavy {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* ASIDE MENU  */
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9c9c9c;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link {
+  background-color: #f14a5e;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aside-menu .menu-nav>.menu-item {
+  margin: 20px 20px 20px 20px;
+}
+
+/* TOP HEADER */
+div#kt_aside_menu li.menu-item.menu-item-active>a>span {
+  color: #fafafa;
+}
+
+div#kt_header_menu span {
+  font-weight: 600;
+  padding: 6px;
+}
+
+.svg-icon.svg-icon-primary svg g [fill] {
+  fill: #d9e1e7 !important;
+}
+
+/* OFFCANVAS */
+.offcanvas {
+  left: -695px;
+  width: 675px;
+  overflow-y: scroll;
+}
+
+.offcanvas.offcanvas-right {
+  right: -695px;
+  left: auto;
+}
+
+/* ADD STUDENT - SELECT */
+select.addstudent {
+  font-family: Montserrat;
+  font-weight: 600;
+  border: 0px;
+  border-bottom: 2px solid #d9e1e7;
+  border-radius: 0px;
+  padding: 10px 0px 8px 0px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #828994;
+  font-size: 1.1em;
+}
+
+/* ADD STUDENT - INPUT */
+input.addstudent {
+  font-family: Montserrat;
+  font-weight: 600;
+  border: 0px;
+  border-bottom: 2px solid #d9e1e7;
+  border-radius: 0px;
+  padding: 10px 0px 8px 0px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #828994;
+  font-size: 1.1em;
+}
+
+label.form-add-label {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #06152b;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+/* ADD STUDENT - BUTTONS */
+button.btn.btn-cancel {
+  font-weight: 600;
+  padding: 10px 40px 10px 40px;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #b7c2d0;
+}
+
+.btn.btn-cancel:hover:not(.btn-text):not(:disabled):not(.disabled) {
+  font-weight: 600;
+  padding: 10px 40px 10px 40px;
+  color: #fff;
+  background-color: black;
+  border: 1px solid #b7c2d0;
+}
+
+.addstudents-action {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  vertical-align: bottom;
+}
+
+/* ADD STUDENT - BUTTONS - BUTTON STATE */
+button.btn-addstudents-disable {
+  font-weight: 600;
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: #f14a5e;
+  border: 1px solid #f14a5e;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.addstudentalert {
+  padding:16px 10px 16px 40px!important;
+  border-radius: 15px!important;
+  background-color: #f49a32!important;
+  color:white!important;
+  font-weight: 500!important;
+  font-family: 'Nunito Sans', sans-serif!important;
+}
+
+.addstudentalert.addstudentalerterror {
+  background-color: #f14a5e!important;
+}
+
+button.btn-addstudents-enable {
+  font-weight: 600;
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: #f14a5e;
+  border: 1px solid #f14a5e;
+  opacity: 1;
+  pointer-events: none;
+}
+
+/* FORM CONTROL  */
+.form-control:focus {
+  color: #828994;
+  background-color: #ffffff;
+  border-color: #d9e1e7;
+  outline: 0;
+}
+
+.form-control {
+  width: 80%;
+}
+
+/* COURSES TABLE */
+.datatable-cell {
+  padding-left: 40px !important;
+}
+
+.courses-table-card {
+  box-shadow: none !important;
+  background-color: #f7f9fc !important;
+}
+
+.courses-table-card-body {
+  padding: 0px !important;
+  background-color: #f7f9fc !important;
+}
+
+.courses-table-head {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #f0f0f0;
+}
+
+.courses-table-body {
+  background-color: #f7f9fc !important;
+}
+
+.courses-table-head-cell {
+  font-family: Montserrat;
+  font-weight: 600 !important;
+  color: #8181a5 !important;
+}
+
+.courses-table-body-cell {
+  font-family: Montserrat;
+  font-weight: 600 !important;
+  color: #4283e3 !important;
+}
+
+.courses-table-body-cell-others {
+  font-family: Montserrat;
+  font-weight: 600 !important;
+  color: #06152b !important;
+}
+
+button.btn.courses-btn-configure {
+  font-weight: 600;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #b7c2d0;
+  padding: 0px !important;
+  padding: 6px 20px 6px 20px !important;
+}
+
+.courses-table-row {
+  display: table !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+tr.courses-table-row {
+  padding: 6px 0px 6px 0px !important;
+}
+
+.courses-table-header {
+  min-height: 200px !important;
+  background-color: #6856e8!important;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  align-items: flex-end!important;
+  padding-bottom:2%!important;
+  justify-content: inherit!important;
+}
+
+/* STUDENT PROFILE */
+
+.student-profile-card {
+  background: rgba(255, 0, 0, 0)!important;
+}
+
+.student-profile-body {
+  background-color:#6856e8!important;
+  border-radius:30px;
+}
+
+a.student-profile-name{
+  font-size: 2em!important;
+  font-weight: 600!important;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

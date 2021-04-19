@@ -1,0 +1,80 @@
+<!--begin::Quick Panel-->
+<div id="kt_quick_panel" class="offcanvas offcanvas-right pt-5 pb-10">
+
+	<!--begin::Header-->
+	<div class="offcanvas-header offcanvas-header-navs d-flex align-items-center justify-content-between  px-10 py-4">
+		<div>
+			<h3 class="font-weight-bolder  mb-2">Add a New Student</h3>
+		</div>
+
+		<div class="offcanvas-close mt-n1 pr-5 px-10 py-4">
+			<a href="#" class="btn btn-xs btn-icon btn-light btn-hover-primary" id="kt_quick_panel_close">
+				<i class="ki ki-close icon-xs text-muted"></i>
+			</a>
+		</div>
+	</div>
+	<hr>
+
+	<!--end::Header-->
+
+	<!--begin::Content-->
+	<div class="offcanvas-content px-10 my-10">
+		<div class="tab-content">
+
+			<!-- begin::Inner content -->
+			<form>
+				<div class="mb-8">
+					<div class="form-group my-heavy">
+						<label class="form-add-label mb-0">Region</label>
+						<select class="form-control form-control-lg addstudent addstudentfield">
+							<option selected>Australia</option>
+							<option>India</option>
+							<option>Switzerland</option>
+							<option>England</option>
+						</select>
+					</div>
+					<div class="form-group my-heavy addstudentfield">
+						<label class="form-add-label mb-0">Mobile</label>
+						<input type="number" class="form-control addstudent" placeholder="Mobile Number" />
+					</div>
+
+					<div class="form-group my-heavy addstudentfield">
+						<label class="form-add-label mb-0">Email</label>
+						<input type="email" class="form-control addstudent" placeholder="anirudh.rupesh@gmail.com" />
+					</div>
+					<div class="form-group my-heavy addstudentfield">
+						<label class="form-add-label mb-0">Student Name</label>
+						<input type="text" class="form-control addstudent" placeholder="Anirudh Rupesh" />
+					</div>
+					<div class="form-group my-heavy">
+						<label class="form-add-label mb-0">Grade</label>
+						<select class="form-control form-control-lg addstudent addstudentfield">
+							<option selected>Grade 12</option>
+							<option>Grade 11</option>
+							<option>Grade 10</option>
+							<option>Grade 09</option>
+						</select>
+					</div>
+					<div class="form-group my-heavy addstudentfield">
+						<label class="form-add-label mb-0">Parent Name</label>
+						<input type="text" class="form-control addstudent" placeholder="Megha Gahlot" />
+					</div>
+					<!-- end::Inner content -->
+				</div>
+			</form>
+			<div class="alert alert-custom alert-default addstudentalert" role="alert">
+				<div class="alert-icon"><i data-feather="alert-circle"></i></div>
+				<div class="alert-text">Student Account already created. Search for student and Add course</div>
+			</div>
+			<div class="alert alert-custom alert-default addstudentalert addstudentalerterror" role="alert">
+				<div class="alert-icon"><i data-feather="alert-triangle"></i></div>
+				<div class="alert-text">Please enter a valid mobile number</div>
+			</div>
+			<div class="form-group my-heavy addstudents-action">
+				<button type="button" class="btn btn-cancel mr-10">Cancel</button>
+				<button type="button" class="btn  btn-addstudents-disable ">Add Student</button>
+			</div>
+			<!--end::Content-->
+		</div>
+	</div>
+	<!--end::Quick Panel-->
